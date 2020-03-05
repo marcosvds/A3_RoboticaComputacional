@@ -21,9 +21,12 @@
 Robôs que trabalham dentro de prédios precisam saber seguir corredores. Uma das maneiras de fazer isso é o robô alinhar o centro de sua câmera ao ponto de fuga do corredor, para que sua trajetória seja aproximadamente paralela às paredes do mesmo. O ponto de fuga é aquele para o qual as retas paralelas parecem convergir.
 </p>
 
-<h3>Parte 2</h3>
+<h3>Parte 2 - Executar dois exemplos</h3>
 <p>
-Modifique um dos exemplos draw_circles_video.py ou videoplay.py para passar a ler dados da webcam e identificar o círculo magenta e o círculo ciano, usando o inRange.
+Há três exemplos: mobilenet_detection, yolov3_detection e tracking. Os dois primeiros são reconhecedores de objetos, e o último é de rastreamento. Um dos arquivos abaixo precisa ser baixado e salvo nas pasta yolov3_detection/yolov3-coco.
+https://www.dropbox.com/s/013ogt2bhwfzxwb/yolov3.weights?dl=0 ou https://pjreddie.com/media/files/yolov3.weights
+
+Atenção: Vamos rodar a Yolo só por importância "histórica". Depois de rodar o demos, estude o notebook Demo_Imagenet.ipynb
 </p>
 
 <h3>Parte 3</h3>
