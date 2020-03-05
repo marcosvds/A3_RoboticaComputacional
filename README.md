@@ -16,9 +16,9 @@
 </ul>
 <h2>Informações da Atividade</h2>
 
-<h3>Parte 1</h3>
+<h3>Parte 1 - Ponto de Fuga</h3>
 <p>
-Ouça a explicação do professor sobre o modelo de câmera pinhole e desenhe a medida x que separa o plano focal da pupila da câmera. Detalhe como calculou a x.
+Robôs que trabalham dentro de prédios precisam saber seguir corredores. Uma das maneiras de fazer isso é o robô alinhar o centro de sua câmera ao ponto de fuga do corredor, para que sua trajetória seja aproximadamente paralela às paredes do mesmo. O ponto de fuga é aquele para o qual as retas paralelas parecem convergir.
 </p>
 
 <h3>Parte 2</h3>
