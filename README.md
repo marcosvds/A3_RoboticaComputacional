@@ -34,9 +34,9 @@ Atenção: Vamos rodar a Yolo só por importância "histórica". Depois de rodar
 Use o projeto mobilenet_detection para basear seu código. Neste projeto, escolha uma categoria de objetos que o reconhecedor reconhece. Diga aqui qual foi sua escolha. Implemente a seguinte funcionalidade: sempre que o objeto identificado em (2) estiver presente por mais que 5 frames seguidos, desenhe um retângulo fixo ao redor dele.
 </p>
 
-<h3>Parte 4</h3>
+<h3>Parte 4 - Simulador</h3>
 <p>
-Trace uma linha entre os centros do círculo magenta e do círculo ciano. Imprima na tela o ângulo entre esta linha e a horizontal.
+Rode o simulador do Turtlebot (use o Waffle). Veja o guia em ../guides/simulador_ros.md. Documente aqui as linhas necessárias para teleop e para abrir o Rviz. Faça um screenshot do seu simulação em execução.
 </p>
 
 <h3>Parte 5</h3>
