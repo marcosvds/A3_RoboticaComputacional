@@ -39,9 +39,9 @@ Use o projeto mobilenet_detection para basear seu código. Neste projeto, escolh
 Rode o simulador do Turtlebot (use o Waffle). Veja o guia em ../guides/simulador_ros.md. Documente aqui as linhas necessárias para teleop e para abrir o Rviz. Faça um screenshot do seu simulação em execução.
 </p>
 
-<h3>Parte 5</h3>
+<h3>Parte 5 - Robô Quadrado</h3>
 <p>
-Baseado nos círculos encontrados pela transformada de Hough, desenhe um círculo sobre o círculo ciano e outro sobre o círculo magenta. Desafio bônus: ser capaz de eliminar circulos espúrios (aqueles que não são os da folha).
+Faça este tutorial de como criar um projeto Python que comanda o robô simulado. Usando o simulador, crie um código que faça o robô fazer uma trajetória que aproxima um quadrado. Baseie-se no código roda.py, construído durante o tutorial.
 </p>
 
 <h3>Parte 6</h3>
