@@ -2,12 +2,14 @@
 """
 Created on Thu Mar  5 18:47:06 2020
 
-@author: Enrico Damiani
+@author: Enrico Damiani, Marcos Vinícius
 """
 
+#importando bibliotecas
 import cv2
 import numpy as np
 import math
+
 
 def auto_canny(image, sigma=0.33):
     v = np.median(image)
@@ -16,11 +18,13 @@ def auto_canny(image, sigma=0.33):
     edged = cv2.Canny(image, lower, upper)
     return edged
 
+#Calcula a reta para 2 pontos
 def Calc_reta (P1, P2):
     Coef_ang = ((P2[1] - P1[1]) / (P2[0] - P1[0]))
     Coef_lin = (P1[1] - (Coef_ang * P1[0]))
     return [Coef_ang, Coef_lin]
 
+#Entra o ponto de encontro para 2 retas
 def Encontra_ponto (reta1, reta2):
     X = (((reta1[1] - reta2[1]) / (reta2[0] - reta1[0])))
     Y = ((reta1[0] * X) + reta1[1])
@@ -29,15 +33,15 @@ def Encontra_ponto (reta1, reta2):
 cap = cv2.VideoCapture('VID_20200302_063445951.mp4')
 #cap = cv2.VideoCapture('VID_20200302_063554327.mp4')
 #cap = cv2.VideoCapture('VID_20200302_063719050.mp4')
-#cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
-#cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
 
 
+#Delimitaçõa do amarelo, interfere na máscara
 hsv1_a = np.array([23,65,65], dtype=np.uint8)
 hsv2_a = np.array([30, 255, 255], dtype=np.uint8)
 
 while(True):
 
+    #Máscara
     ret, frame = cap.read()
     with_frame = frame.shape[0]
     Height_frame = frame.shape[1]
@@ -58,9 +62,10 @@ while(True):
     bordas = auto_canny(blur) 
 
 
-    #lines_list = []
+    #Encontra as linhas na imagem
     lines_list = cv2.HoughLinesP(bordas, 50, math.pi/180.0, 100, np.array([]), 35, 5)
 
+    #Encontra as retas, substituindo na função, e adiciona os coeficientes dessa em listas
     X1 = []
     Y1 = []
     X2 = []
@@ -78,7 +83,7 @@ while(True):
             X2.append(i[2])
             Y2.append(i[3])
             
-
+    #Separa as 2 retas com coeficiente angula mais opostos (maior e o menor)
     if len(Coef_ang) >= 2:
         Ang_max = max(Coef_ang)
         index_max = Coef_ang.index(Ang_max)
@@ -88,13 +93,15 @@ while(True):
         index_min = Coef_ang.index(Ang_min)
         Lin_min = (Coef_lin[index_min])
         Reta_min = (Ang_min,Lin_min)
+        #Encontra o ponto de fuga para as 2 retas
         Ponto = Encontra_ponto(Reta_max,Reta_min)
         Pix1 = int(X1[index_max])
         piy1 = int(Y1[index_max])
         Pix2 = int(X1[index_min])
         piy2 = int(Y1[index_min])
 
-
+    
+        #Marca as retas e o ponto de fuga na imagem
         if not math.isnan(Ponto[0]) and not math.isnan(Ponto[1]):
                 cv2.circle(final,(int(Ponto[0]),int(Ponto[1])),15,(0,255,0),2)
                 cv2.line(final, (Pix1, piy1), (int(Ponto[0]),int(Ponto[1])), (0, 255, 0), 2, cv2.LINE_AA)
@@ -103,11 +110,11 @@ while(True):
 
     
 
-    # Display the resulting frame
+
     cv2.imshow('frame',final)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
-# When everything done, release the capture
+
 cap.release()
 cv2.destroyAllWindows()
