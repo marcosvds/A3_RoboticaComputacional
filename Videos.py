@@ -93,6 +93,7 @@ while(True):
         index_min = Coef_ang.index(Ang_min)
         Lin_min = (Coef_lin[index_min])
         Reta_min = (Ang_min,Lin_min)
+
         #Encontra o ponto de fuga para as 2 retas
         Ponto = Encontra_ponto(Reta_max,Reta_min)
         Pix1 = int(X1[index_max])
