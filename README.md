@@ -47,7 +47,7 @@ Rode o simulador do Turtlebot (use o Waffle). Veja o guia em ../guides/simulador
 Faça este tutorial de como criar um projeto Python que comanda o robô simulado. Usando o simulador, crie um código que faça o robô fazer uma trajetória que aproxima um quadrado. Baseie-se no código roda.py, construído durante o tutorial.
 </p>
 
-<h3>Parte 6 - Robô Indeciso</h3>
+<h4>Parte 6 - Robô Indeciso</h4>
 <p>
 Usando o simulador e o LIDAR simulado, faça um robô avançar quando o obstáculo bem à sua frente estiver a menos de 1.0m e recuar quando estiver a mais de 1.02 m. Baseie-se no código le_scan.py e roda.py, desenvolvidos durante o tutorial.
 </p>
