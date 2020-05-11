@@ -44,7 +44,7 @@ Rode o simulador do Turtlebot (use o Waffle). Veja o guia em ../guides/simulador
 
 <h4>Parte 5 - Robô Quadrado</h4>
 <p>
-Faça este tutorial de como criar um projeto Python que comanda o robô simulado. Usando o simulador, crie um código que faça o robô fazer uma trajetória que aproxima um quadrado. Baseie-se no código roda.py, construído durante o tutorial.
+Usando o simulador, crie um código que faça o robô fazer uma trajetória que aproxima um quadrado.
 </p>
 
 <h4>Parte 6 - Robô Indeciso</h4>
