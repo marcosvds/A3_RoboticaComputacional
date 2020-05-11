@@ -43,9 +43,10 @@ Rode o simulador do Turtlebot (use o Waffle). Veja o guia em ../guides/simulador
 </p>
 
 <h4>Parte 5 - Robô Quadrado</h4>
-<p>
-Usando o simulador, crie um código que faça o robô fazer uma trajetória que aproxima um quadrado.
-</p>
+<ul>
+  <li>Usando o simulador, crie um código que faça o robô fazer uma trajetória que aproxima um quadrado.</li>
+  <li><a href=https://youtu.be/x2kTETlEfHU>Vídeo comprovando o resultado da parte 5 da atividade 3</li>
+</ul>
 
 <h4>Parte 6 - Robô Indeciso</h4>
 <p>
