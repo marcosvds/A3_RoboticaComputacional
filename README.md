@@ -38,9 +38,10 @@ Use o projeto mobilenet_detection para basear seu código. Neste projeto, escolh
 </p>
 
 <h4>Parte 4 - Simulador</h4>
-<p>
-Rode o simulador do Turtlebot (use o Waffle). Veja o guia em ../guides/simulador_ros.md. Documente aqui as linhas necessárias para teleop e para abrir o Rviz. Faça um screenshot do seu simulação em execução.
-</p>
+<ul>
+  <li>Rode o simulador do Turtlebot. Veja o guia em ../guides/simulador_ros.md. Faça um screenshot do seu simulação em execução e adicione no arquivo ipynb.</li>
+  <li><a href=https://github.com/marcosvds/A3_RoboticaComputacional_2020.1/blob/master/atividade_Semana03.ipynb>Comprovação da parte 4.</li>
+</ul>
 
 <h4>Parte 5 - Robô Quadrado</h4>
 <ul>
