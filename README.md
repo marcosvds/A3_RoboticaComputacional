@@ -52,4 +52,5 @@ Use o projeto mobilenet_detection para basear seu código. Neste projeto, escolh
 <h4>Parte 6 - Robô Indeciso</h4>
 <ul>
   <li>Usando o simulador e o LIDAR simulado, faça um robô avançar quando o obstáculo bem à sua frente estiver a mais de 1.02m e recuar quando estiver a menos de 1.00 m. Baseie-se no código le_scan.py e roda.py, desenvolvidos durante o tutorial.</li>
+  <li><a href=https://youtu.be/x2kTETlEfHU>Vídeo comprovando o resultado da parte 6.</a></li>
 </ul>
