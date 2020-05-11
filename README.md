@@ -40,13 +40,13 @@ Use o projeto mobilenet_detection para basear seu código. Neste projeto, escolh
 <h4>Parte 4 - Simulador</h4>
 <ul>
   <li>Rode o simulador do Turtlebot. Veja o guia em ../guides/simulador_ros.md. Faça um screenshot do seu simulação em execução e adicione no arquivo ipynb.</li>
-  <li><a href=https://github.com/marcosvds/A3_RoboticaComputacional_2020.1/blob/master/atividade_Semana03.ipynb>Comprovação da parte 4.</li>
+  <li><a href=https://github.com/marcosvds/A3_RoboticaComputacional_2020.1/blob/master/atividade_Semana03.ipynb>Comprovação da parte 4.</a></li>
 </ul>
 
 <h4>Parte 5 - Robô Quadrado</h4>
 <ul>
   <li>Usando o simulador, crie um código que faça o robô fazer uma trajetória que aproxima um quadrado.</li>
-  <li><a href=https://youtu.be/x2kTETlEfHU>Vídeo comprovando o resultado da parte 5 da atividade 3.</li>
+  <li><a href=https://youtu.be/x2kTETlEfHU>Vídeo comprovando o resultado da parte 5 da atividade 3.</a></li>
 </ul>
 
 <h4>Parte 6 - Robô Indeciso</h4>
