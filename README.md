@@ -39,7 +39,7 @@ Use o projeto mobilenet_detection para basear seu código. Neste projeto, escolh
 
 <h4>Parte 4 - Simulador</h4>
 <ul>
-  <li>Rode o simulador do Turtlebot. Faça um screenshot da sua simulação em execução e adicione no arquivo ipynb.</li>
+  <li>Rode o simulador do Turtlebot, faça um screenshot da sua simulação em execução e adicione no arquivo ipynb.</li>
   <li><a href=https://github.com/marcosvds/A3_RoboticaComputacional_2020.1/blob/master/atividade_Semana03.ipynb>Screenshot comprovando o resultado da parte 4.</a></li>
 </ul>
 
@@ -50,6 +50,6 @@ Use o projeto mobilenet_detection para basear seu código. Neste projeto, escolh
 </ul>
 
 <h4>Parte 6 - Robô Indeciso</h4>
-<p>
-Usando o simulador e o LIDAR simulado, faça um robô avançar quando o obstáculo bem à sua frente estiver a menos de 1.0m e recuar quando estiver a mais de 1.02 m. Baseie-se no código le_scan.py e roda.py, desenvolvidos durante o tutorial.
-</p>
+<ul>
+  <li>Usando o simulador e o LIDAR simulado, faça um robô avançar quando o obstáculo bem à sua frente estiver a menos de 1.0m e recuar quando estiver a mais de 1.02 m. Baseie-se no código le_scan.py e roda.py, desenvolvidos durante o tutorial.</li>
+</ul>
