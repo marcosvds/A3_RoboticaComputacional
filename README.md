@@ -34,9 +34,9 @@ Atenção: Vamos rodar a Yolo só por importância "histórica". Depois de rodar
 </p>
 
 <h4>Parte 3 - Identificar Objeto</h4>
-<p>
-Use o projeto mobilenet_detection para basear seu código. Neste projeto, escolha uma categoria de objetos que o reconhecedor reconhece. Diga aqui qual foi sua escolha. Implemente a seguinte funcionalidade: sempre que o objeto identificado em (2) estiver presente por mais que 5 frames seguidos, desenhe um retângulo fixo ao redor dele.
-</p>
+<ul>
+  <li>Use o projeto <i>mobilenet_detection</i> para basear seu código. Neste projeto, escolha uma categoria de objetos que o reconhecedor reconhece. Diga aqui qual foi sua escolha. Implemente a seguinte funcionalidade: sempre que o objeto identificado em (2) estiver presente por mais que 5 frames seguidos, desenhe um retângulo fixo ao redor dele.</li>
+</ul>
 
 <h4>Parte 4 - Simulador</h4>
 <ul>
