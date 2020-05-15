@@ -22,7 +22,7 @@
 <h4>Parte 1 - Ponto de Fuga</h4>
 <ul>
   <li>Robôs que trabalham dentro de prédios precisam saber seguir corredores. Uma das maneiras de fazer isso é o robô alinhar o centro de sua câmera ao ponto de fuga do corredor, para que sua trajetória seja aproximadamente paralela às paredes do mesmo. O ponto de fuga é aquele para o qual as retas paralelas parecem convergir.</li>
-  <li>Vídeo</li>
+  <li><a href=https://www.youtube.com/watch?v=UmW7EfXVaRk&feature=youtu.be>Vídeo comprovando o resultado da parte 1.</a></li>
 </ul>
 
 <h4>Parte 2 - Executar dois exemplos</h4>
